@@ -1,0 +1,90 @@
+.navbar {
+    background-color: papayawhip;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 8px 8px 6px black;
+    opacity: 0.8;
+    /*border: 2px solid black;*/
+
+}
+
+.navbar-brand {
+    font-weight: 700;
+    background-color: gold;
+    padding: 8px 20px;
+    margin: 5px 5px;
+}
+
+.login-button {
+    background-color: gold;
+    color: black;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    margin-right: 15px;
+    box-shadow: 4px 4px 7px black;
+}
+
+.login-button:hover {
+    background-color: goldenrod;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:focus, btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: lightgrey;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: black;
+}
+
+.home-image {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.hero-section::before {
+    background-color: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: gold;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
