@@ -58,6 +58,7 @@
     </nav>
 <!-- End Navbar -->
 
+
 <!-- Hero Section -->
     <section class="hero-section">
         <!--<img class="home-image " src="assets/img/2149565242.jpg">-->
@@ -87,7 +88,7 @@
                             <a href="" id="newCusBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#newCustomerModal">New Customer</a>
                         </div>
                         <div class="col-2">
-                            <a href="" id="viewAllCus" role="button" class="btn">View All Customers</a>
+                            <a href="" id="viewAllCus" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewAllCustomerModal">View All Customers</a>
                         </div>
                     </form>
 
@@ -102,7 +103,7 @@
 
 <!-- Add New Customer Modal -->
     <div class="modal fade" id="newCustomerModal" tabindex="-1" aria-labelledby="newCustomerModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
 
             <div class="modal-header">
@@ -115,22 +116,22 @@
                 <form>
 
                     <div class="mb-3">
-                        <label for="cusId" class="form-label">Customer Id</label>
+                        <label for="cusId" class="form-label fw-semibold">Customer Id</label>
                         <input type="text" class="form-control" id="cusId">
                     </div>
 
                     <div class="mb-3">
-                        <label for="cusName" class="form-label">Customer Name</label>
+                        <label for="cusName" class="form-label fw-semibold">Customer Name</label>
                         <input type="text" class="form-control" id="cusName">
                     </div>
 
                     <div class="mb-3">
-                        <label for="cusAddress" class="form-label">Customer Address</label>
+                        <label for="cusAddress" class="form-label fw-semibold">Customer Address</label>
                         <input type="text" class="form-control" id="cusAddress">
                     </div>
 
                     <div class="mb-3">
-                        <label for="cusPhone" class="form-label">Customer Contact</label>
+                        <label for="cusPhone" class="form-label fw-semibold">Customer Contact</label>
                         <input type="text" class="form-control" id="cusPhone">
                     </div>
 
@@ -149,6 +150,37 @@
         </div>
     </div>
 <!-- End Add New Customer Modal -->
+
+<!-- View All Customer Modal -->
+<div class="modal fade" id="viewAllCustomerModal" tabindex="-1" aria-labelledby="viewAllCustomerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header text-center">
+                <h1 class="modal-title fs-5" id="viewAllCustomerModalLabel">All Customers</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+
+                <h6>Oshan Vishwajith</h6>
+                <h6>Akithma Subandi</h6>
+                <h6>Maheshi Kodagoda</h6>
+                <h6>Nirmal Pathum</h6>
+                <h6>Senali Nuhansa</h6>
+                <h6>Lahiru Godage</h6>
+                <h6>Sithum Abishek</h6>
+                <h6>Kalyana Shenon</h6>
+                <h6>Shanara Disnayake</h6>
+                <h6>Amanda Nadini</h6>
+                <h6>Vihaga Kalum</h6>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- View All Customer Modal -->
 
 
 <!-- Bootstrap JS-->

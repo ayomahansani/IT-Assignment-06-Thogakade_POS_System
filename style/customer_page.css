@@ -200,8 +200,36 @@ input:hover{
     background-color: saddlebrown;
 }
 
+.modal .modal-body {
+    background-color: #d9c0a0;
+    color: #176e17;
+}
+
+.modal .modal-footer {
+    background-color: #b6986c;
+}
+
 .modal .modal-footer .btn {
+    border: none;
     width: 80px;
+    height: 40px;
     margin: 10px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+.modal .modal-footer .btn:hover {
+    background-color: goldenrod;
+}
+
+.modal .modal-body .form-label {
+    color: #176e17;
+}
+
+.modal .modal-header {
+    background-color: #176e17;
+}
+
+.modal .modal-header .modal-title {
+    font-weight: 800;
+    color: gold;
 }
