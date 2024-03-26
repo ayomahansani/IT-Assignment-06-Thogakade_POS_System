@@ -134,7 +134,7 @@
     margin: 20px;
     border-radius: 10px;
     padding: 0.5rem;
-    opacity: 0.9;
+    opacity: 0.8;
 
     position: absolute;
 
@@ -149,7 +149,7 @@
     padding: 1em 1em 1.5em 2em ;
     background-color: burlywood;
     box-shadow: 3px 3px 8px black;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 form .search-btn {
@@ -163,6 +163,11 @@ form .search-btn {
 
 form .search-btn:hover {
     background-color: goldenrod;
+}
+
+form .search-input {
+    border: none;
+    background-color: #eed8c7;
 }
 
 input {
@@ -189,7 +194,7 @@ input:hover{
 
 #viewAllCus {
     font-weight: 500;
-    background-color: #9f5016;
+    background-color: #b67244;
     color: white;
     border: none;
     margin-top: 2em;
@@ -197,7 +202,11 @@ input:hover{
 }
 
 #viewAllCus:hover {
-    background-color: saddlebrown;
+    background-color: #a45b33;
+}
+
+.modal {
+    opacity: 0.9;
 }
 
 .modal .modal-body {
@@ -226,10 +235,24 @@ input:hover{
 }
 
 .modal .modal-header {
-    background-color: #176e17;
+    background-color: #1a791a;
 }
 
 .modal .modal-header .modal-title {
     font-weight: 800;
     color: gold;
 }
+
+.customer-table {
+    position: absolute;
+    height: 60%;
+    width: 96.5%;
+    border-radius: 15px;
+    margin: 1vw;
+    margin-top: 2vw;
+    padding: 2em 2em 2em 2em ;
+    box-shadow: 3px 3px 8px black;
+    background-color: burlywood;
+    opacity: 0.7;
+}
+

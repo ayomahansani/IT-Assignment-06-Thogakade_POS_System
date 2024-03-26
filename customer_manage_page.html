@@ -61,7 +61,8 @@
 
 <!-- Hero Section -->
     <section class="hero-section">
-        <!--<img class="home-image " src="assets/img/2149565242.jpg">-->
+
+        <img class="home-image " src="assets/img/2149565242.jpg">
 
         <!-- Title Section -->
             <div class="main-title me-auto">
@@ -73,12 +74,13 @@
         <!-- Main Section -->
             <div class="main-section">
 
+                <!-- customer search -->
                 <div class="search-customer">
 
                     <form class="row">
                         <div class="col-4">
                             <label for="search" class="form-label fw-semibold">Search Customer</label>
-                            <input type="search" class="form-control" id="search" placeholder="Input NIC / Name">
+                            <input type="search" class="form-control search-input" id="search" placeholder="Input NIC / Name">
                         </div>
                         <div class="col-3">
                             <button type="submit" class="btn btn-warning search-btn">Search</button>
@@ -93,12 +95,65 @@
                     </form>
 
                 </div>
+                <!-- end customer search -->
+
+                <!-- customer table -->
+                <div class="customer-table table-responsive">
+
+                    <table class="table table-warning table-striped table-bordered border-dark table-hover">
+                        <thead class="table-dark">
+                        <tr>
+                            <th scope="col">NIC</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Contact</th>
+                        </tr>
+                        </thead>
+
+                        <tbody class="table-group-divider">
+                        <tr>
+                            <th scope="row">200178453425V</th>
+                            <th>Oshan Vishwajith</th>
+                            <th>Kadawatha</th>
+                            <th>0772087926</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">200451906783V</th>
+                            <th>Akithma Subandi</th>
+                            <th>Delgoda</th>
+                            <th>0783456120</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">199756092365V</th>
+                            <th>Maheshi Kodagoda</th>
+                            <th>Colombo</th>
+                            <th>0720438745</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">199909459879V</th>
+                            <th>Nirmal Pathum</th>
+                            <th>Galle</th>
+                            <th>0761250923</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">200061547786V</th>
+                            <th>Senali Nuhansa</th>
+                            <th>Panadura</th>
+                            <th>0750332345</th>
+                        </tr>
+                        </tbody>
+
+                    </table>
+
+                </div>
+                <!-- end customer table -->
 
             </div>
         <!-- End Main Section -->
 
     </section>
 <!-- End Hero Section -->
+
 
 
 <!-- Add New Customer Modal -->
@@ -117,22 +172,22 @@
 
                     <div class="mb-3">
                         <label for="cusId" class="form-label fw-semibold">Customer Id</label>
-                        <input type="text" class="form-control" id="cusId">
+                        <input type="text" class="form-control search-input" id="cusId">
                     </div>
 
                     <div class="mb-3">
                         <label for="cusName" class="form-label fw-semibold">Customer Name</label>
-                        <input type="text" class="form-control" id="cusName">
+                        <input type="text" class="form-control search-input" id="cusName">
                     </div>
 
                     <div class="mb-3">
                         <label for="cusAddress" class="form-label fw-semibold">Customer Address</label>
-                        <input type="text" class="form-control" id="cusAddress">
+                        <input type="text" class="form-control search-input" id="cusAddress">
                     </div>
 
                     <div class="mb-3">
                         <label for="cusPhone" class="form-label fw-semibold">Customer Contact</label>
-                        <input type="text" class="form-control" id="cusPhone">
+                        <input type="text" class="form-control search-input" id="cusPhone">
                     </div>
 
                 </form>
@@ -150,6 +205,7 @@
         </div>
     </div>
 <!-- End Add New Customer Modal -->
+
 
 <!-- View All Customer Modal -->
 <div class="modal fade" id="viewAllCustomerModal" tabindex="-1" aria-labelledby="viewAllCustomerModalLabel" aria-hidden="true">
@@ -180,7 +236,7 @@
         </div>
     </div>
 </div>
-<!-- View All Customer Modal -->
+<!-- End View All Customer Modal -->
 
 
 <!-- Bootstrap JS-->
