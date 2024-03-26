@@ -199,3 +199,9 @@ input:hover{
 #viewAllCus:hover {
     background-color: saddlebrown;
 }
+
+.modal .modal-footer .btn {
+    width: 80px;
+    margin: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
