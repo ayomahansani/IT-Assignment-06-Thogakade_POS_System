@@ -27,10 +27,15 @@ span {
 
 .bg {
     background-color: papayawhip;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.58);
 }
 
 form .btn {
-    box-shadow: 4px 4px 6px black;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+input {
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
 }
 
 input:hover{
