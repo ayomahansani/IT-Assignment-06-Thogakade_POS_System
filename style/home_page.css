@@ -125,7 +125,6 @@
     transform: scale(1.5);
 }
 
-
 @media (min-width: 991px) {
     .nav-link::before {
         content: "";
