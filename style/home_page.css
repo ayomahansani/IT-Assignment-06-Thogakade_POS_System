@@ -6,20 +6,19 @@
     padding: 0.5rem;
     box-shadow: 8px 8px 6px black;
     opacity: 0.8;
-    /*border: 2px solid black;*/
-
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
     font-weight: 700;
     background-color: gold;
     padding: 8px 20px;
     margin: 5px 5px;
 }
 
-.login-button {
+.navbar .login-button {
     background-color: gold;
-    color: black;
+    color: green;
+    font-weight: 500;
     font-size: 16px;
     padding: 5px 15px;
     border-radius: 50px;
@@ -43,20 +42,30 @@
     outline: none;
 }
 
-.nav-link {
-    color: lightgrey;
+.navbar .nav-link {
+    color: #8a8a8a;
     font-weight: 700;
     position: relative;
 }
 
-.nav-link:hover, .nav-link.active {
-    color: black;
+.navbar .nav-link:hover, .nav-link.active {
+    color: green;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
 }
 
 .home-image {
     width: 100vw;
     height: 100vh;
+}
 
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
 .hero-section::before {
@@ -68,6 +77,54 @@
     right: 0;
     left: 0;
 }
+
+.card-set {
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    right: 0;
+    left: 0;
+}
+
+.card-set .card {
+    background-color: papayawhip;
+    box-shadow: 4px 4px 7px black;
+    opacity: 0.7;
+}
+
+.card-set .card .card-body img {
+    height: 100px;
+    object-fit: contain;
+    transition: 0.6s ;
+}
+
+.card-set .card .card-body p {
+    text-shadow: 1px 1px 1px lightgrey;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-set .card .card-body h4 {
+    color: green;
+}
+
+.card-set .card .card-body a.my-btn {
+    width: 200px;
+    box-shadow: 3px 3px 8px black;
+    text-align: center;
+    border: none;
+}
+
+.card-set .card .card-body a.my-btn:hover {
+    background-color: goldenrod;
+}
+
+.card-set .card:hover .card-body img {
+    transform: scale(1.5);
+}
+
 
 @media (min-width: 991px) {
     .nav-link::before {
