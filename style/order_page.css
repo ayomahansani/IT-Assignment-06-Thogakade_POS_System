@@ -143,29 +143,8 @@
     top: 21%;
 }
 
-.search-customer {
-    border-radius: 15px;
-    margin: 1vw;
-    padding: 1em 1em 1.5em 2em ;
-    background-color: burlywood;
-    box-shadow: 3px 3px 8px black;
-    opacity: 0.8;
-}
-
-form .search-btn {
-    width: 100px;
-    height: 35px;
-    border: none;
-    margin-top: 2em;
-    font-weight: 500;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
-}
-
-form .search-btn:hover {
-    background-color: goldenrod;
-}
-
 form .search-input {
+    margin-bottom: 1.5em;
     border: none;
     background-color: #eed8c7;
 }
@@ -179,80 +158,62 @@ input:hover{
     border: 3px solid green;
 }
 
-#newCusBtn {
-    font-weight: 500;
-    background-color: forestgreen;
+/* -----------Special On Order Form----------- */
+
+#forms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_div {
+    background-color: white;
+    position: relative;
+}
+
+.div_head {
+    margin: 0;
+    padding: 1rem;
+    background-color: limegreen;
     color: white;
-    border: none;
-    margin-top: 2em;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
 }
 
-#newCusBtn:hover {
-    background-color: #176e17;
+.form {
+    padding: 2rem;
+    position: relative;
 }
 
-#viewAllCus {
-    font-weight: 500;
-    background-color: #b67244;
-    color: white;
-    border: none;
-    margin-top: 2em;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+.up_div {
+    display: flex;
 }
 
-#viewAllCus:hover {
-    background-color: #a45b33;
+.down_div {
+    display: flex;
 }
 
-.modal {
-    opacity: 0.9;
+@media (max-width: 1000px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        width: 40em;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
 }
 
-.modal .modal-body {
-    background-color: #d9c0a0;
-    color: #176e17;
+#orderId, #orderDate, #cusId, #cusAddress, #cusName, #cusPhone {
+    width: 92%;
 }
 
-.modal .modal-footer {
-    background-color: #b6986c;
+#customers {
+    width: 97%;
 }
-
-.modal .modal-footer .btn {
-    border: none;
-    width: 80px;
-    height: 40px;
-    margin: 10px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
-}
-
-.modal .modal-footer .btn:hover {
-    background-color: goldenrod;
-}
-
-.modal .modal-body .form-label {
-    color: #176e17;
-}
-
-.modal .modal-header {
-    background-color: #1a791a;
-}
-
-.modal .modal-header .modal-title {
-    font-weight: 800;
-    color: gold;
-}
-
-.customer-table {
-    position: absolute;
-    height: 60%;
-    width: 96.5%;
-    border-radius: 15px;
-    margin: 1vw;
-    margin-top: 2vw;
-    padding: 2em 2em 2em 2em ;
-    box-shadow: 3px 3px 8px black;
-    background-color: burlywood;
-    opacity: 0.7;
-}
-
