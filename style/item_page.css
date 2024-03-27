@@ -112,7 +112,7 @@
     top: 14%;
 }
 
-#customerImg {
+#itemImg {
     width: 25px;
     height: 25px;
 
@@ -143,7 +143,7 @@
     top: 21%;
 }
 
-.search-customer {
+.search-item {
     border-radius: 15px;
     margin: 1vw;
     padding: 1em 1em 1.5em 2em ;
@@ -179,7 +179,7 @@ input:hover{
     border: 3px solid green;
 }
 
-#newCusBtn {
+#newItemBtn {
     font-weight: 500;
     background-color: forestgreen;
     color: white;
@@ -188,11 +188,11 @@ input:hover{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
 }
 
-#newCusBtn:hover {
+#newItemBtn:hover {
     background-color: #176e17;
 }
 
-#viewAllCus {
+#viewAllItem {
     font-weight: 500;
     background-color: #b67244;
     color: white;
@@ -201,7 +201,7 @@ input:hover{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
 }
 
-#viewAllCus:hover {
+#viewAllItem:hover {
     background-color: #a45b33;
 }
 
@@ -243,7 +243,7 @@ input:hover{
     color: gold;
 }
 
-.customer-table {
+.item-table {
     position: absolute;
     height: 60%;
     width: 96.5%;

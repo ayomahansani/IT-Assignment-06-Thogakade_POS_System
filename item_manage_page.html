@@ -66,7 +66,7 @@
 
     <!-- Title Section -->
     <div class="main-title me-auto">
-        <img id="customerImg" src="assets/icon/icons8-item-90.png">
+        <img id="itemImg" src="assets/icon/icons8-item-90.png">
         <h6 id="title">Items</h6>
     </div>
     <!-- End Title Section -->
@@ -74,79 +74,79 @@
     <!-- Main Section -->
     <div class="main-section">
 
-        <!-- customer search -->
-        <div class="search-customer">
+        <!-- item search -->
+        <div class="search-item">
 
             <form class="row">
                 <div class="col-4">
                     <label for="search" class="form-label fw-semibold">Search Item</label>
-                    <input type="search" class="form-control search-input" id="search" placeholder="Input Id / Name">
+                    <input type="search" class="form-control search-input" id="search" placeholder="Input Code / Name Here">
                 </div>
                 <div class="col-3">
                     <button type="submit" class="btn btn-warning search-btn">Search</button>
                 </div>
 
                 <div class="col-2">
-                    <a href="" id="newCusBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#newCustomerModal">New Customer</a>
+                    <a href="" id="newItemBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#newItemModal">New Item</a>
                 </div>
                 <div class="col-2">
-                    <a href="" id="viewAllCus" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewAllCustomerModal">View All Customers</a>
+                    <a href="" id="viewAllItem" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewAllItemsModal">View All Items</a>
                 </div>
             </form>
 
         </div>
-        <!-- end customer search -->
+        <!-- end item search -->
 
-        <!-- customer table -->
-        <div class="customer-table table-responsive">
+        <!-- item table -->
+        <div class="item-table">
 
             <table class="table table-warning table-striped table-bordered border-dark table-hover">
                 <thead class="table-dark">
                 <tr>
-                    <th scope="col">NIC</th>
+                    <th scope="col">Code</th>
                     <th scope="col">Name</th>
-                    <th scope="col">Address</th>
-                    <th scope="col">Contact</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
                 </tr>
                 </thead>
 
                 <tbody class="table-group-divider">
                 <tr>
-                    <th scope="row">200178453425V</th>
-                    <th>Oshan Vishwajith</th>
-                    <th>Kadawatha</th>
-                    <th>0772087926</th>
+                    <th scope="row">I001</th>
+                    <th>Maliban Chocolate Biscuit</th>
+                    <th>Rs: 150.00</th>
+                    <th>30</th>
                 </tr>
                 <tr>
-                    <th scope="row">200451906783V</th>
-                    <th>Akithma Subandi</th>
-                    <th>Delgoda</th>
-                    <th>0783456120</th>
+                    <th scope="row">I002</th>
+                    <th>Kirisamba 5kg</th>
+                    <th>Rs: 1200.25</th>
+                    <th>11</th>
                 </tr>
                 <tr>
-                    <th scope="row">199756092365V</th>
-                    <th>Maheshi Kodagoda</th>
-                    <th>Colombo</th>
-                    <th>0720438745</th>
+                    <th scope="row">I003</th>
+                    <th>Sunlight 120g</th>
+                    <th>Rs: 130.00</th>
+                    <th>24</th>
                 </tr>
                 <tr>
-                    <th scope="row">199909459879V</th>
-                    <th>Nirmal Pathum</th>
-                    <th>Galle</th>
-                    <th>0761250923</th>
+                    <th scope="row">I004</th>
+                    <th>White Sugar 500g</th>
+                    <th>Rs: 345.75</th>
+                    <th>23</th>
                 </tr>
                 <tr>
-                    <th scope="row">200061547786V</th>
-                    <th>Senali Nuhansa</th>
-                    <th>Panadura</th>
-                    <th>0750332345</th>
+                    <th scope="row">I005</th>
+                    <th>Coca Cola 2l</th>
+                    <th>Rs :560.00</th>
+                    <th>50</th>
                 </tr>
                 </tbody>
 
             </table>
 
         </div>
-        <!-- end customer table -->
+        <!-- end item table -->
 
     </div>
     <!-- End Main Section -->
@@ -156,13 +156,13 @@
 
 
 
-<!-- Add New Customer Modal -->
-<div class="modal fade" id="newCustomerModal" tabindex="-1" aria-labelledby="newCustomerModalLabel" aria-hidden="true">
+<!-- Add New Item Modal -->
+<div class="modal fade" id="newItemModal" tabindex="-1" aria-labelledby="newItemModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
 
             <div class="modal-header">
-                <h1 class="modal-title fs-5 text-center" id="newCustomerModalLabel">New Customer</h1>
+                <h1 class="modal-title fs-5 text-center" id="newItemModalLabel">New Item</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
@@ -171,23 +171,23 @@
                 <form>
 
                     <div class="mb-3">
-                        <label for="cusId" class="form-label fw-semibold">Customer Id</label>
-                        <input type="text" class="form-control search-input" id="cusId">
+                        <label for="itemCode" class="form-label fw-semibold">Item Code</label>
+                        <input type="text" class="form-control search-input" id="itemCode">
                     </div>
 
                     <div class="mb-3">
-                        <label for="cusName" class="form-label fw-semibold">Customer Name</label>
-                        <input type="text" class="form-control search-input" id="cusName">
+                        <label for="itemName" class="form-label fw-semibold">Item Name</label>
+                        <input type="text" class="form-control search-input" id="itemName">
                     </div>
 
                     <div class="mb-3">
-                        <label for="cusAddress" class="form-label fw-semibold">Customer Address</label>
-                        <input type="text" class="form-control search-input" id="cusAddress">
+                        <label for="itemPrice" class="form-label fw-semibold">Item Price</label>
+                        <input type="text" class="form-control search-input" id="itemPrice">
                     </div>
 
                     <div class="mb-3">
-                        <label for="cusPhone" class="form-label fw-semibold">Customer Contact</label>
-                        <input type="text" class="form-control search-input" id="cusPhone">
+                        <label for="qty" class="form-label fw-semibold">Item Quantity</label>
+                        <input type="text" class="form-control search-input" id="qty">
                     </div>
 
                 </form>
@@ -204,39 +204,40 @@
         </div>
     </div>
 </div>
-<!-- End Add New Customer Modal -->
+<!-- End Add New Item Modal -->
 
 
-<!-- View All Customer Modal -->
-<div class="modal fade" id="viewAllCustomerModal" tabindex="-1" aria-labelledby="viewAllCustomerModalLabel" aria-hidden="true">
+<!-- View All Items Modal -->
+<div class="modal fade" id="viewAllItemsModal" tabindex="-1" aria-labelledby="viewAllItemsModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
 
             <div class="modal-header text-center">
-                <h1 class="modal-title fs-5" id="viewAllCustomerModalLabel">All Customers</h1>
+                <h1 class="modal-title fs-5" id="viewAllItemsModalLabel">All Items</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
             <div class="modal-body text-center">
 
-                <h6>Oshan Vishwajith</h6>
-                <h6>Akithma Subandi</h6>
-                <h6>Maheshi Kodagoda</h6>
-                <h6>Nirmal Pathum</h6>
-                <h6>Senali Nuhansa</h6>
-                <h6>Lahiru Godage</h6>
-                <h6>Sithum Abishek</h6>
-                <h6>Kalyana Shenon</h6>
-                <h6>Shanara Disnayake</h6>
-                <h6>Amanda Nadini</h6>
-                <h6>Vihaga Kalum</h6>
+                <h6>Maliban Chocolate Biscuit</h6>
+                <h6>Kirisamba 5kg</h6>
+                <h6>Sunlight 120g</h6>
+                <h6>White Sugar 500g</h6>
+                <h6>Prima Noodle 250g</h6>
+                <h6>Soya Sourse 500ml</h6>
+                <h6>Penadol</h6>
+                <h6>Kohomba Baby Shampoo</h6>
+                <h6>Basmathi 10kg</h6>
+                <h6>Tuna Saman 200g</h6>
+                <h6>Cream Cracker Buddy</h6>
+                <h6>Coca Cola 2l</h6>
 
             </div>
 
         </div>
     </div>
 </div>
-<!-- End View All Customer Modal -->
+<!-- End View All Items Modal -->
 
 
 <!-- Bootstrap JS-->
