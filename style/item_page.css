@@ -1,0 +1,258 @@
+.navbar {
+    background-color: papayawhip;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 8px 8px 6px black;
+    opacity: 0.8;
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+    background-color: gold;
+    padding: 8px 20px;
+    margin: 5px 5px;
+}
+
+.navbar .login-button {
+    background-color: gold;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    margin-right: 15px;
+    box-shadow: 4px 4px 7px black;
+}
+
+.login-button:hover {
+    background-color: goldenrod;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:focus, btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar .nav-link {
+    color: #8a8a8a;
+    font-weight: 700;
+    position: relative;
+}
+
+.navbar .nav-link:hover, .nav-link.active {
+    color: green;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.home-image {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-section::before {
+    background-color: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: gold;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.main-title {
+    width: 97.2%;
+    background-color: blanchedalmond;
+    height: 35px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 0.5rem;
+    opacity: 0.8;
+
+    position: absolute;
+
+    top: 14%;
+}
+
+#customerImg {
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+
+    bottom: 12%;
+    left: 1.5%;
+}
+
+#title {
+    font-weight: 500;
+    position: absolute;
+
+    left: 4%;
+}
+
+.main-section {
+    background-color: papayawhip;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    opacity: 0.8;
+
+    position: absolute;
+
+    width: 97.2%;
+    height: 73%;
+    top: 21%;
+}
+
+.search-customer {
+    border-radius: 15px;
+    margin: 1vw;
+    padding: 1em 1em 1.5em 2em ;
+    background-color: burlywood;
+    box-shadow: 3px 3px 8px black;
+    opacity: 0.8;
+}
+
+form .search-btn {
+    width: 100px;
+    height: 35px;
+    border: none;
+    margin-top: 2em;
+    font-weight: 500;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+form .search-btn:hover {
+    background-color: goldenrod;
+}
+
+form .search-input {
+    border: none;
+    background-color: #eed8c7;
+}
+
+input {
+    height: 35px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+input:hover{
+    border: 3px solid green;
+}
+
+#newCusBtn {
+    font-weight: 500;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    margin-top: 2em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+#newCusBtn:hover {
+    background-color: #176e17;
+}
+
+#viewAllCus {
+    font-weight: 500;
+    background-color: #b67244;
+    color: white;
+    border: none;
+    margin-top: 2em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+#viewAllCus:hover {
+    background-color: #a45b33;
+}
+
+.modal {
+    opacity: 0.9;
+}
+
+.modal .modal-body {
+    background-color: #d9c0a0;
+    color: #176e17;
+}
+
+.modal .modal-footer {
+    background-color: #b6986c;
+}
+
+.modal .modal-footer .btn {
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+.modal .modal-footer .btn:hover {
+    background-color: goldenrod;
+}
+
+.modal .modal-body .form-label {
+    color: #176e17;
+}
+
+.modal .modal-header {
+    background-color: #1a791a;
+}
+
+.modal .modal-header .modal-title {
+    font-weight: 800;
+    color: gold;
+}
+
+.customer-table {
+    position: absolute;
+    height: 60%;
+    width: 96.5%;
+    border-radius: 15px;
+    margin: 1vw;
+    margin-top: 2vw;
+    padding: 2em 2em 2em 2em ;
+    box-shadow: 3px 3px 8px black;
+    background-color: burlywood;
+    opacity: 0.7;
+}
+
