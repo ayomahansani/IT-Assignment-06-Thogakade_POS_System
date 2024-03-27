@@ -144,7 +144,7 @@
 }
 
 form .search-input {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
     border: none;
     background-color: #eed8c7;
 }
@@ -166,21 +166,29 @@ input:hover{
 }
 
 .form_div {
-    background-color: white;
+    margin: 1.5rem;
+    background-color: burlywood;
     position: relative;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
 }
 
 .div_head {
     margin: 0;
     padding: 1rem;
-    background-color: limegreen;
-    color: white;
+    background-color: #176e17;
+    font-weight: 800;
+    color: gold;
 }
 
 .form {
-    margin: 11rem;
+    margin-top: 1rem;
     padding: 1rem;
     position: relative;
+}
+
+.form .form-label {
+    color: #176e17;
 }
 
 .up_div {
@@ -217,4 +225,12 @@ input:hover{
 
 #customers {
     width: 97%;
+}
+
+select {
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+select:hover {
+    border: 3px solid green;
 }
