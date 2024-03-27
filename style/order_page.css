@@ -178,7 +178,8 @@ input:hover{
 }
 
 .form {
-    padding: 2rem;
+    margin: 11rem;
+    padding: 1rem;
     position: relative;
 }
 
@@ -210,7 +211,7 @@ input:hover{
 
 }
 
-#orderId, #orderDate, #cusId, #cusAddress, #cusName, #cusPhone {
+#orderId, #cusId, #cusAddress, #cusName, #cusPhone {
     width: 92%;
 }
 
