@@ -195,6 +195,10 @@ input:hover{
     display: flex;
 }
 
+.mid_div {
+    display: flex;
+}
+
 .down_div {
     display: flex;
 }
@@ -223,7 +227,7 @@ input:hover{
     width: 92%;
 }
 
-#customers {
+#customers, #items {
     width: 97%;
 }
 
