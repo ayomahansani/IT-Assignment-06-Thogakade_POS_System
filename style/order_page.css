@@ -349,3 +349,9 @@ select:hover {
 .order-table {
     opacity: 0.7;
 }
+
+.add-to-cart {
+    width: 1em;
+    height: 1em;
+    margin: 1rem;
+}
