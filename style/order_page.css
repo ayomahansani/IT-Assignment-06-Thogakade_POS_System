@@ -296,7 +296,7 @@ input:hover{
 
 #viewBtn {
     color: white;
-    background-color: #d27729;
+    background-color: #a97240;
 }
 
 #viewBtn:hover {
@@ -324,5 +324,28 @@ select:hover {
 }
 
 .modal {
+    opacity: 0.9;
     width: 90%;
+}
+
+.modal .modal-body {
+    background-color: #be9e75;
+    color: #176e17;
+}
+
+.modal .modal-body .form-label {
+    color: #176e17;
+}
+
+.modal .modal-header {
+    background-color: #1a791a;
+}
+
+.modal .modal-header .modal-title {
+    font-weight: 800;
+    color: gold;
+}
+
+.order-table {
+    opacity: 0.7;
 }
