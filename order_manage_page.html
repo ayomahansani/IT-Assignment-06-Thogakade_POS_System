@@ -74,6 +74,7 @@
     <!-- Main Section -->
     <div class="main-section">
 
+        <!-- Form Set -->
         <section id="forms">
 
             <!-- Invoice Details Form -->
@@ -147,54 +148,53 @@
                 <form class="form">
 
                     <div class="up_div">
-                        <label for="items" class="form-label fw-semibold">Select Item :</label>
-                        <select class="form-select search-input" aria-label="Default select example" id="items">
-                            <option selected>choose customer NIC</option>
-                            <option value="1">200451906783V</option>
-                            <option value="2">199909459879V</option>
-                            <option value="3">200178453425V</option>
-                            <option value="4">200061547786V</option>
-                        </select>
+
+                        <div>
+                            <label for="selectItem" class="form-label fw-semibold">Select Item :</label>
+                            <select class="form-select search-input" aria-label="Default select example" id="selectItem">
+                                <option selected>choose item code &nbsp;&nbsp;&nbsp;&nbsp;</option>
+                                <option value="1">I001</option>
+                                <option value="2">I002</option>
+                                <option value="3">I003</option>
+                                <option value="4">I004</option>
+                            </select>
+                        </div>
+
                     </div>
 
                     <div class="mid_div">
 
+                        <div class="form2_set1">
 
-                        <div class="form1_set1">
+                            <label for="itemCode" class="form-label fw-semibold">Code :</label>
+                            <input type="text" class="form-control search-input" id="itemCode" placeholder="I002">
 
-                            <label for="orderId" class="form-label fw-semibold">Order Id :</label>
-                            <input type="text" class="form-control search-input" id="orderId" placeholder="O001">
+                            <label for="itemPrice" class="form-label fw-semibold">Unit Price :</label>
+                            <input type="text" class="form-control search-input" id="itemPrice" placeholder="Rs: 1200.25">
 
                         </div>
 
-                        <div class="form1_set2">
+                        <div class="form2_set2">
 
-                            <label for="orderDate" class="form-label fw-semibold">Order Date :</label>
-                            <input type="date" class="form-control search-input" id="orderDate" style="width: 187px;">
+                            <label for="itemName" class="form-label fw-semibold">Name :</label>
+                            <input type="text" class="form-control search-input" id="itemName" placeholder="Kirisamba 5kg">
+
+                            <label for="qtyOnH" class="form-label fw-semibold">Qty On Hand :</label>
+                            <input type="text" class="form-control search-input" id="qtyOnH" placeholder="11">
 
                         </div>
                     </div>
 
                     <div class="down_div">
-                        <div class="form1_set1">
 
-                            <label for="cusId" class="form-label fw-semibold">ID :</label>
-                            <input type="text" class="form-control search-input" id="cusId" placeholder="200451906783V">
-
-                            <label for="cusAddress" class="form-label fw-semibold">Address :</label>
-                            <input type="text" class="form-control search-input" id="cusAddress" placeholder="Panadura">
-
+                        <div>
+                            <label for="quantity" class="form-label fw-semibold">Order Quantity :</label>
+                            <input type="text" class="form-control search-input" id="quantity" placeholder="2">
                         </div>
 
-                        <div class="form1_set2">
 
-                            <label for="cusName" class="form-label fw-semibold">Name :</label>
-                            <input type="text" class="form-control search-input" id="cusName" placeholder="Oshan Vishwajith">
+                        <input type="submit" class="btn btn-warning" value="Add To Cart" id="addBtn">
 
-                            <label for="cusPhone" class="form-label fw-semibold">Contact :</label>
-                            <input type="text" class="form-control search-input" id="cusPhone" placeholder="0776287698">
-
-                        </div>
                     </div>
 
                 </form>
@@ -203,9 +203,11 @@
             <!-- End Select Item Form -->
 
             <!-- Total Form -->
+
             <!-- End Total Form -->
 
         </section>
+        <!-- End Form Set -->
 
     </div>
     <!-- End Main Section -->
