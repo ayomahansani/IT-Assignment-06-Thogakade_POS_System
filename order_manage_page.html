@@ -213,7 +213,12 @@
 
                         <div>
                             <label for="total" class="form-label fw-semibold">Total :</label>
-                            <input type="text" class="form-control search-input" id="total" placeholder="Rs: 1000.00">
+                            <input type="text" class="form-control search-input" id="total" placeholder="Rs: 2000.00">
+                        </div>
+
+                        <div>
+                            <label for="cash" class="form-label fw-semibold">Cash :</label>
+                            <input type="text" class="form-control search-input" id="cash" placeholder="Rs: 5000.00">
                         </div>
 
                     </div>
@@ -222,23 +227,31 @@
 
                         <div class="form2_set1">
 
-                            <label for="discount" class="form-label fw-semibold">Discount :</label>
-                            <input type="text" class="form-control search-input" id="discount" placeholder="I002">
+                            <label for="discount" class="form-label fw-semibold">Select Discount :</label>
+                            <select class="form-select search-input" aria-label="Default select example" id="discount">
+                                <option selected>10%</option>
+                                <option value="1">5%</option>
+                                <option value="2">10%</option>
+                                <option value="3">15%</option>
+                                <option value="4">20%</option>
+                            </select>
 
                             <label for="subTotal" class="form-label fw-semibold">Sub Total :</label>
-                            <input type="text" class="form-control search-input" id="subTotal" placeholder="Rs: 900.00">
+                            <input type="text" class="form-control search-input" id="subTotal" placeholder="Rs: 1800.00">
 
                         </div>
 
                         <div class="form2_set2">
-
-
+                            <label for="balance" class="form-label fw-semibold">Balance :</label>
+                            <input type="text" class="form-control search-input" id="balance" placeholder="Rs: 3200.00">
                         </div>
                     </div>
 
                     <div class="down_div">
 
-                        <input type="submit" class="btn btn-warning" value="Purchase" id="addBtn">
+                        <input type="submit" class="btn btn-warning" value="Purchase" id="purchaseBtn">
+
+                        <input type="submit" class="btn btn-warning" value="Purchase" id="viewBtn">
 
                     </div>
 

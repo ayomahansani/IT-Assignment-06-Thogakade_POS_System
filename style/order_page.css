@@ -263,11 +263,13 @@ input:hover{
 
 }
 
-#orderId, #cusId, #cusAddress, #cusName, #cusPhone, #itemCode, #itemPrice, #itemName, #qtyOnH {
+#orderId, #cusId, #cusAddress, #cusName, #cusPhone,
+#itemCode, #itemPrice, #itemName, #qtyOnH,
+#total, #cash, #discount, #subTotal, #balance{
     width: 92%;
 }
 
-#addBtn {
+#addBtn, #purchaseBtn, #viewBtn {
     font-weight: 600;
     border: none;
     width: 70%;
