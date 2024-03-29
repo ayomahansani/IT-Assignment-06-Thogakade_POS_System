@@ -1,7 +1,7 @@
 .background {
     width: 100vw;
     height: 100vh;
-    background-color: goldenrod;
+    background-color: rgba(218, 165, 32, 0.91);
 }
 
 form {
