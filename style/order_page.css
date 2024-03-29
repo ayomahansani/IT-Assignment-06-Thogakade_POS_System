@@ -275,6 +275,7 @@ input:hover{
     width: 70%;
     height: 20%;
     margin-top: 2rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
 }
 
 #addBtn:hover {
@@ -287,7 +288,8 @@ input:hover{
     height: 20%;
     margin-top: 2rem;
     margin-right: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
 }
 
 #purchaseBtn:hover {
@@ -351,7 +353,32 @@ select:hover {
 }
 
 .add-to-cart {
-    width: 1em;
-    height: 1em;
     margin: 1rem;
 }
+
+.purchase {
+    margin-right: 0.2em;
+}
+
+.view {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+}
+
+.calculator {
+    margin-left: 17rem;
+}
+
+.selectItem {
+    margin-left: 15rem;
+}
+
+.invoice {
+    margin-left: 13rem;
+}
+
+.detailsOfOrders {
+    margin-left: 1rem;
+}
+

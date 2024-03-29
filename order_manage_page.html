@@ -47,13 +47,26 @@
             </div>
         </div>
 
-        <a href="login_page.html" class="login-button">Sign In</a>
-        <a href="register_page.html" class="login-button">Sign Up</a>
-        <a href="logout_page.html" class="login-button">Log Out</a>
+        <!-- Buttons -->
+        <a href="login_page.html" class="login-button">
+            Sign In
+            <span><i class="bi bi-calculator-fill icon-lg"></i></span>
+        </a>
+        <a href="register_page.html" class="login-button">
+            Sign Up
+            <span><i class="bi bi-calculator-fill icon-lg"></i></span>
+        </a>
+        <a href="logout_page.html" class="login-button">
+            Log Out
+            <span><i class="bi bi-calculator-fill icon-lg"></i></span>
+        </a>
+        <!-- End Buttons -->
 
+        <!-- Navbar Toggler -->
         <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- End Navbar Toggler -->
 
     </div>
 
@@ -64,7 +77,9 @@
 <!-- Hero Section -->
 <section class="hero-section">
 
+    <!-- Background Image -->
     <img class="home-image " src="assets/img/2149565242.jpg">
+    <!-- End Background Image -->
 
     <!-- Title Section -->
     <div class="main-title me-auto">
@@ -82,8 +97,16 @@
             <!-- Invoice Details Form -->
             <div class="form_div">
 
-                <h5 class="div_head">Invoice Details</h5>
+                <!-- Title -->
+                <h5 class="div_head">
+                    Invoice Details
+                    <span class="invoice">
+                        <i class="bi bi-file-earmark-text-fill"></i>
+                    </span>
+                </h5>
+                <!-- End Title -->
 
+                <!-- Form Body -->
                 <form class="form">
 
                     <div>
@@ -138,6 +161,7 @@
                     </div>
 
                 </form>
+                <!-- Form Body -->
 
             </div>
             <!-- End Invoice Details Form -->
@@ -145,8 +169,16 @@
             <!-- Select Item Form -->
             <div class="form_div">
 
-                <h5 class="div_head">Select Item</h5>
+                <!-- Title -->
+                <h5 class="div_head">
+                    Select Item
+                    <span class="selectItem">
+                        <i class="bi bi-bookmark-check-fill"></i>
+                    </span>
+                </h5>
+                <!-- End Title -->
 
+                <!-- Form Body -->
                 <form class="form">
 
                     <div class="up_div">
@@ -203,6 +235,7 @@
                     </div>
 
                 </form>
+                <!-- End Form Body -->
 
             </div>
             <!-- End Select Item Form -->
@@ -210,8 +243,16 @@
             <!-- Total Form -->
             <div class="form_div total-form">
 
-                <h5 class="div_head">Amount</h5>
+                <!-- Title -->
+                <h5 class="div_head">
+                    Amount
+                    <span class="calculator">
+                        <i class="bi bi-calculator-fill icon-lg"></i>
+                    </span>
+                </h5>
+                <!-- End Title -->
 
+                <!-- Form Body -->
                 <form class="form">
 
                     <div class="up_div">
@@ -256,15 +297,19 @@
                     <div class="down_div">
 
                         <button type="submit" class="btn btn-warning" id="purchaseBtn" >
-                            <span class="purchase mr-3"><i class="bi bi-plus-circle-fill"></i></span>
+                            <span class="purchase"><i class="bi bi-cart-check-fill"></i></span>
                             Purchase
                         </button>
 
-                        <a href="" id="viewBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewOrderDetailsModal">View Order Details</a>
+                        <a href="" id="viewBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewOrderDetailsModal">
+                            <span class="view"><i class="bi bi-eye-fill"></i></span>
+                            View Order Details
+                        </a>
 
                     </div>
 
                 </form>
+                <!-- End Form Body -->
 
             </div>
             <!-- End Total Form -->
@@ -279,13 +324,18 @@
 <!-- End Hero Section -->
 
 
+<!------------------------- Modals -------------------------->
+
 <!-- View Order Details Modal -->
 <div class="modal fade" id="viewOrderDetailsModal" tabindex="-1" aria-labelledby="viewOrderDetailsModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
 
             <div class="modal-header">
-                <h1 class="modal-title fs-5 text-center" id="viewOrderDetailsModalLabel">Order Details</h1>
+                <h1 class="modal-title fs-5 text-center" id="viewOrderDetailsModalLabel">
+                    Order Details
+                    <span class="detailsOfOrders"><i class="bi bi-cart4"></i></span>
+                </h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
@@ -389,6 +439,8 @@
     </div>
 </div>
 <!-- End View Order Details Modal -->
+
+<!------------------------- End Modals -------------------------->
 
 
 <!-- Bootstrap JS-->
