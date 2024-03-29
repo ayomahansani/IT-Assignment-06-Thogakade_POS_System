@@ -145,6 +145,6 @@
     }
 }
 
-.buttons {
-    margin: 1rem;
+.navbar .buttons {
+    margin: 0.3em;
 }
