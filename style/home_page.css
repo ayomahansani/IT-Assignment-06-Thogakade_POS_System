@@ -144,3 +144,7 @@
         visibility: visible;
     }
 }
+
+.buttons {
+    margin: 1rem;
+}
