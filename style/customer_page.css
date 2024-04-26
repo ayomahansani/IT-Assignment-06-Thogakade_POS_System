@@ -300,6 +300,10 @@
         text-align: center;
         border: none;
     }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
 }
 
 /*------------------------------------------*/
@@ -366,6 +370,10 @@
         text-align: center;
         border: none;
     }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
 }
 
 /*------------------------------------------*/
@@ -382,7 +390,7 @@
 
     .hero-section::before {
         width: 100vw;
-        height: 215vh;
+        height: 110vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -394,7 +402,7 @@
 
     .home-image {
         width: 400%;
-        height: 215%;
+        height: 110%;
     }
 
     .navbar .login-button {
@@ -415,6 +423,10 @@
         box-shadow: 3px 3px 8px black;
         text-align: center;
         border: none;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 
 }
@@ -484,6 +496,9 @@
         margin: 0.005em;
     }
 
+    .login-button:hover {
+        background-color: goldenrod;
+    }
 }
 
 /*------------------------------------------*/
@@ -548,6 +563,10 @@
 
     .navbar .buttons {
         margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 
 }
@@ -616,6 +635,10 @@
         margin: 0.005em;
     }
 
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
 }
 
 /*------------------------------------------*/
@@ -681,6 +704,10 @@
 
     .navbar .buttons {
         margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 
 }
@@ -775,6 +802,10 @@
 
     .navbar .buttons {
         margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 }
 
@@ -1294,7 +1325,7 @@ input:hover{
         position: absolute;
 
         width: 95%;
-        height: 73%;
+        height: 82%;
         top: 21%;
     }
 
@@ -1317,7 +1348,7 @@ input:hover{
 
     .customer-page-photo {
         margin-top: 1.5rem;
-        margin-left: 1rem;
+        margin-left: 3.8rem;
     }
 
     .add-to-cart {
@@ -1336,6 +1367,435 @@ input:hover{
         margin-top: 2em;
         font-weight: 500;
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 52%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 700px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 82%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 215px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 52%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 669px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 115vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 115%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 86%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 215px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 54%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 654px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 140vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 140%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 100%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 60%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 575px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 160vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 160%;
+    }
+
+    .main-title {
+        width: 93%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 93%;
+        height: 100%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 10%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 60%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
     }
 
 }

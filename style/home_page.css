@@ -287,6 +287,10 @@
         text-align: center;
         border: none;
     }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
 }
 
 /*------------------------------------------*/
@@ -353,6 +357,10 @@
         text-align: center;
         border: none;
     }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
 }
 
 /*------------------------------------------*/
@@ -402,6 +410,10 @@
         box-shadow: 3px 3px 8px black;
         text-align: center;
         border: none;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 
 }
@@ -471,6 +483,10 @@
         margin: 0.005em;
     }
 
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
 }
 
 /*------------------------------------------*/
@@ -535,6 +551,10 @@
 
     .navbar .buttons {
         margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 
 }
@@ -603,6 +623,10 @@
         margin: 0.005em;
     }
 
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
 }
 
 /*------------------------------------------*/
@@ -668,6 +692,10 @@
 
     .navbar .buttons {
         margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 
 }
@@ -762,6 +790,10 @@
 
     .navbar .buttons {
         margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
     }
 }
 
