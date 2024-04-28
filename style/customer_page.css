@@ -1684,7 +1684,7 @@ input:hover{
     .customer-table {
         position: absolute;
         height: 60%;
-        width: 95.5%;
+        width: 95%;
         border-radius: 15px;
         margin: 1vw;
         margin-top: 2vw;
@@ -1746,29 +1746,29 @@ input:hover{
     }
 
     #customerImg {
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
 
         position: absolute;
 
-        bottom: 13%;
-        left: 2.5%;
+        bottom: 25%;
+        left: 4%;
     }
 
     #title {
         font-weight: 500;
+        font-size: 0.9rem;
         position: absolute;
 
         left: 10%;
     }
 
     .customer-page-photo {
-        margin-top: 3rem;
-        margin-left: 3.8rem;
+        display: none;
     }
 
     .add-to-cart {
-        margin: 0;
+        margin: 1rem;
     }
 
     .view {
@@ -1777,26 +1777,64 @@ input:hover{
     }
 
     form .search-btn {
-        width: 180px;
+        width: 100px;
         height: 35px;
         border: none;
         margin-top: 2em;
         font-weight: 500;
+        font-size: 0.9rem;
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
     .customer-table {
         position: absolute;
         height: 60%;
-        width: 95.5%;
+        width: 95%;
         border-radius: 15px;
         margin: 1vw;
-        margin-top: 2vw;
-        padding: 2em 2em 2em 2em ;
+        margin-top: 3vw;
+        padding: 2em 1em 2em 1em ;
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
     }
 
+    #newCusBtn {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: forestgreen;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #newCusBtn:hover {
+        background-color: #176e17;
+    }
+
+    #viewAllCus {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: #b67244;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #viewAllCus:hover {
+        background-color: #a45b33;
+    }
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+        font-size: 0.9rem;
+    }
+
+    input:hover{
+        border: 3px solid green;
+    }
 }
 
