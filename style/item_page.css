@@ -999,10 +999,10 @@ input:hover{
 
 /*------------------------------------------*/
 
-@media (max-width: 1300px) {
+@media (max-width: 1186px) {
 
     .main-title {
-        width: 97%;
+        width: 96.5%;
         background-color: blanchedalmond;
         height: 35px;
         margin: 20px;
@@ -1024,9 +1024,371 @@ input:hover{
 
         position: absolute;
 
-        width: 97%;
+        width: 96.5%;
         height: 73%;
         top: 21%;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 5%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1134px) {
+
+    .main-title {
+        width: 96.5%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 96.5%;
+        height: 73%;
+        top: 21%;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .item-page-photo {
+        margin-top: 1.7rem;
+        margin-left: 0.5rem;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 5%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1000px) {
+
+    .main-title {
+        width: 96%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 96%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+    .item-page-photo {
+        margin-top: 1.7rem;
+        margin-left: 0;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 923px) {
+
+    .main-title {
+        width: 96%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 96%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+    .item-page-photo {
+        margin-top: 1.7rem;
+        margin-left: 0;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 890px) {
+
+    .main-title {
+        width: 96%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 96%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+    .item-page-photo {
+        margin-top: 1.9rem;
+        margin-left: 0;
+        position: absolute;
+        width: 7%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 800px) {
+
+    .main-title {
+        width: 95%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 95%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+    .item-page-photo {
+        margin-top: 2.3rem;
+        margin-left: 0;
+        position: absolute;
+        width: 7%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .main-title {
+        width: 95%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 95%;
+        height: 82%;
+        top: 21%;
+    }
+
+    #itemImg {
+        position: absolute;
+
+        top: 15%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
+    .item-page-photo {
+        margin-top: 1rem;
+        margin-left: 3.8rem;
+        position: absolute;
+        width: 8%;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 215px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 46%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
     }
 
 }
