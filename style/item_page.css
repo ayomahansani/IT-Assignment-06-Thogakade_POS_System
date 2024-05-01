@@ -1337,7 +1337,7 @@ input:hover{
     }
 
     .item-page-photo {
-        margin-top: 1rem;
+        margin-top: 0.8rem;
         margin-left: 3.8rem;
         position: absolute;
         width: 8%;
@@ -1361,7 +1361,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    .item-table {
         position: absolute;
         height: 46%;
         width: 95.5%;
@@ -1391,6 +1391,454 @@ input:hover{
         height: 110%;
     }
 
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 654px) {
+
+    .main-title {
+        width: 95%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 95%;
+        height: 82%;
+        top: 21%;
+    }
+
+    #itemImg {
+        position: absolute;
+
+        top: 15%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
+    .item-page-photo {
+        margin-top: 0.8rem;
+        margin-left: 3.8rem;
+        position: absolute;
+        width: 9%;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .item-table {
+        position: absolute;
+        height: 46%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 650px) {
+
+    .main-title {
+        width: 95%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 95%;
+        height: 82%;
+        top: 21%;
+    }
+
+    #itemImg {
+        position: absolute;
+
+        top: 15%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
+    .item-page-photo {
+        margin-top: 0.8rem;
+        margin-left: 3.8rem;
+        position: absolute;
+        width: 9%;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .item-table {
+        position: absolute;
+        height: 46%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 600px) {
+
+    .main-title {
+        width: 94%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94%;
+        height: 82%;
+        top: 21%;
+    }
+
+    #itemImg {
+        position: absolute;
+
+        top: 15%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
+    .item-page-photo {
+        margin-top: 2.3rem;
+        margin-left: 3.8rem;
+        position: absolute;
+        width: 10%;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .item-table {
+        position: absolute;
+        height: 46%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 140vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 140%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 575px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 115vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 115%;
+    }
+
+    .main-title {
+        width: 93%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 93%;
+        height: 80%;
+        top: 21%;
+    }
+
+    #itemImg {
+        position: absolute;
+
+        top: 15%;
+        left: 4%;
+    }
+
+    #title {
+        font-weight: 500;
+        font-size: 0.9rem;
+        position: absolute;
+
+        left: 10%;
+    }
+
+    .item-page-photo {
+        display: none;
+    }
+
+    .add-to-cart {
+        margin: 1rem;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 100px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        font-size: 0.9rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .item-table {
+        position: absolute;
+        height: 48%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 3vw;
+        padding: 2em 1em 2em 1em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    #newItemBtn {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: forestgreen;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #newItemBtn:hover {
+        background-color: #176e17;
+    }
+
+    #viewAllItem {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: #b67244;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #viewAllItem:hover {
+        background-color: #a45b33;
+    }
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+        font-size: 0.9rem;
+    }
+
+    input:hover{
+        border: 3px solid green;
+    }
 }
 
 
