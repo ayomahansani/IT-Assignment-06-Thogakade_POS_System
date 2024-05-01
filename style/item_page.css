@@ -993,8 +993,42 @@ input:hover{
 }
 
 .item-page-photo {
-    margin-top: 0.8rem;
-    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1300px) {
+
+    .main-title {
+        width: 97%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 97%;
+        height: 73%;
+        top: 21%;
+    }
+
 }
 
 
