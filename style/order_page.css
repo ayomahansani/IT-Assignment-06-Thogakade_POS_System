@@ -78,26 +78,6 @@
     left: 0;
 }
 
-@media (min-width: 991px) {
-    .nav-link::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0;
-        height: 2px;
-        background-color: gold;
-        visibility: hidden;
-        transition: 0.3s ease-in-out;
-    }
-
-    .nav-link:hover::before, .nav-link.active::before {
-        width: 100%;
-        visibility: visible;
-    }
-}
-
 .main-title {
     width: 97.2%;
     background-color: blanchedalmond;
@@ -158,6 +138,8 @@ input:hover{
     border: 3px solid green;
 }
 
+
+
 /* -----------Special On Order Form----------- */
 
 #forms {
@@ -201,66 +183,6 @@ input:hover{
 
 .down_div {
     display: flex;
-}
-
-@media (max-width: 1000px) {
-    #forms {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .form_div {
-        width: 50em;
-    }
-
-    .form {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-
-}
-
-@media (max-width: 800px) {
-    #forms {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .form_div {
-        width: 30em;
-    }
-
-    .form {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-
-}
-
-@media (max-width: 700px) {
-    #forms {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .form_div {
-        width: 26em;
-    }
-
-    .form {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-
 }
 
 #orderId, #cusId, #cusAddress, #cusName, #cusPhone,
@@ -385,6 +307,87 @@ select:hover {
 .navbar .buttons {
     margin: 0.3em;
 }
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: gold;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 1000px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        width: 50em;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 800px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        width: 30em;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        width: 26em;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
 
 
 
