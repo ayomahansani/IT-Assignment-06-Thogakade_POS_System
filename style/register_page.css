@@ -113,15 +113,13 @@
 
 @media (max-width: 692px) {
 
-    .register-background form {
+    .register-background form span {
         position: absolute;
-        width: 60%;
-        height: 80%;
-        left: 0;
-        right: 0;
-        top: 4.5rem;
-        margin: auto;
-        opacity: 0.8;
+        width: 65%;
+        height: 10%;
+        font-size: 14px;
+        left: 21%;
+        bottom: 0;
     }
 }
 
@@ -142,7 +140,7 @@
 
     .register-background form span {
         position: absolute;
-        width: 60%;
+        width: 75%;
         height: 10%;
         font-size: 14px;
         left: 25%;
@@ -167,7 +165,7 @@
 
     .register-background form span {
         position: absolute;
-        width: 60%;
+        width: 77%;
         height: 10%;
         font-size: 14px;
         left: 23%;
@@ -192,7 +190,7 @@
 
     .register-background form span {
         position: absolute;
-        width: 60%;
+        width: 79%;
         height: 10%;
         font-size: 14px;
         left: 21%;
