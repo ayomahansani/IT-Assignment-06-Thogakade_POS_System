@@ -1292,6 +1292,12 @@ select:hover {
         width: 95%;
     }
 
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
 }
 
 /*------------------------------------------*/
@@ -1338,7 +1344,7 @@ select:hover {
     }
 
     .main-title {
-        width: 96%;
+        width: 95%;
         background-color: blanchedalmond;
         height: 35px;
         margin: 20px;
@@ -1360,7 +1366,7 @@ select:hover {
 
         position: absolute;
 
-        width: 96%;
+        width: 95%;
         height: 135%;
         top: 21%;
     }
@@ -1398,6 +1404,13 @@ select:hover {
     .form .form-label {
         font-size: 0.9rem;
         color: #176e17;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
     }
 
 }
@@ -1446,7 +1459,7 @@ select:hover {
     }
 
     .main-title {
-        width: 96%;
+        width: 95%;
         background-color: blanchedalmond;
         height: 35px;
         margin: 20px;
@@ -1468,7 +1481,7 @@ select:hover {
 
         position: absolute;
 
-        width: 96%;
+        width: 95%;
         height: 135%;
         top: 21%;
     }
@@ -1506,6 +1519,13 @@ select:hover {
     .form .form-label {
         font-size: 0.9rem;
         color: #176e17;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
     }
 
 }
@@ -1554,7 +1574,7 @@ select:hover {
     }
 
     .main-title {
-        width: 96%;
+        width: 94.5%;
         background-color: blanchedalmond;
         height: 35px;
         margin: 20px;
@@ -1576,7 +1596,7 @@ select:hover {
 
         position: absolute;
 
-        width: 96%;
+        width: 94.5%;
         height: 135%;
         top: 21%;
     }
@@ -1616,11 +1636,18 @@ select:hover {
         color: #176e17;
     }
 
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
 }
 
 /*------------------------------------------*/
 
-@media (max-width: 700px) {
+@media (max-width: 712px) {
 
     #forms {
         display: flex;
@@ -1662,7 +1689,7 @@ select:hover {
     }
 
     .main-title {
-        width: 96%;
+        width: 94%;
         background-color: blanchedalmond;
         height: 35px;
         margin: 20px;
@@ -1684,7 +1711,7 @@ select:hover {
 
         position: absolute;
 
-        width: 96%;
+        width: 94%;
         height: 135%;
         top: 21%;
     }
@@ -1738,11 +1765,18 @@ select:hover {
         left: 6%;
     }
 
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
 }
 
 /*------------------------------------------*/
 
-@media (max-width: 660px) {
+@media (max-width: 690px) {
 
     #forms {
         display: flex;
@@ -1753,7 +1787,7 @@ select:hover {
 
     .form_div {
         margin: 1rem;
-        width: 40em;
+        width: 37em;
         background-color: burlywood;
         position: relative;
         box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
@@ -1784,7 +1818,7 @@ select:hover {
     }
 
     .main-title {
-        width: 96%;
+        width: 94%;
         background-color: blanchedalmond;
         height: 35px;
         margin: 20px;
@@ -1806,7 +1840,7 @@ select:hover {
 
         position: absolute;
 
-        width: 96%;
+        width: 94%;
         height: 135%;
         top: 21%;
     }
@@ -1842,12 +1876,134 @@ select:hover {
     }
 
     .form .form-label {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         color: #176e17;
     }
 
     form .search-input {
+        font-size: 0.7rem;
+        margin-bottom: 1.2em;
+        border: none;
+        background-color: #eed8c7;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 640px) {
+
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        margin: 1rem;
+        width: 34em;
+        background-color: burlywood;
+        position: relative;
+        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+        opacity: 0.9;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 170vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 170%;
+    }
+
+    .main-title {
+        width: 94%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94%;
+        height: 135%;
+        top: 21%;
+    }
+
+    #orderDate {
+        width: 95%;
+    }
+
+    #viewBtn {
+        color: white;
+        background-color: #a97240;
+    }
+
+    #addBtn {
         font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        width: 70%;
+        height: 20%;
+        margin-top: 2rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #purchaseBtn, #viewBtn {
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        height: 20%;
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-left: 1rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .form .form-label {
+        font-size: 0.7rem;
+        color: #176e17;
+    }
+
+    form .search-input {
+        font-size: 0.7rem;
         margin-bottom: 1.2em;
         border: none;
         background-color: #eed8c7;
@@ -1858,6 +2014,251 @@ select:hover {
         position: absolute;
 
         left: 6%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 587px) {
+
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        margin: 1rem;
+        width: 30em;
+        background-color: burlywood;
+        position: relative;
+        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+        opacity: 0.9;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 170vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 170%;
+    }
+
+    .main-title {
+        width: 94%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94%;
+        height: 135%;
+        top: 21%;
+    }
+
+    #orderDate {
+        width: 95%;
+    }
+
+    #viewBtn {
+        color: white;
+        background-color: #a97240;
+    }
+
+    #addBtn {
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        width: 70%;
+        height: 20%;
+        margin-top: 2rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #purchaseBtn, #viewBtn {
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        height: 20%;
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-left: 1rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .form .form-label {
+        font-size: 0.7rem;
+        color: #176e17;
+    }
+
+    form .search-input {
+        font-size: 0.7rem;
+        margin-bottom: 1.2em;
+        border: none;
+        background-color: #eed8c7;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 520px) {
+
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        margin: 1rem;
+        width: 26em;
+        background-color: burlywood;
+        position: relative;
+        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+        opacity: 0.9;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 170vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 170%;
+    }
+
+    .main-title {
+        width: 94%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94%;
+        height: 135%;
+        top: 21%;
+    }
+
+    #orderDate {
+        width: 95%;
+    }
+
+    #viewBtn {
+        color: white;
+        background-color: #a97240;
+    }
+
+    #addBtn {
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        width: 70%;
+        height: 20%;
+        margin-top: 2rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #purchaseBtn, #viewBtn {
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        height: 20%;
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-left: 1rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .form .form-label {
+        font-size: 0.5rem;
+        color: #176e17;
+    }
+
+    form .search-input {
+        font-size: 0.5rem;
+        margin-bottom: 1.2em;
+        border: none;
+        background-color: #eed8c7;
+    }
+
+    #title {
+        font-size: 0.9rem;
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
     }
 
 }
