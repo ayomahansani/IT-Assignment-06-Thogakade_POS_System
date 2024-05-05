@@ -7,8 +7,8 @@ div {
 }
 
 div>div {
-    width: 900px;
-    height: 100px;
+    width: 100%;
+    height: 10%;
     color: black;
     text-align: center;
 
@@ -26,6 +26,24 @@ div>div>h2 {
     font-size: 42px;
     font-weight: 800;
 }
+
+
+/*------------------------------------------*/
+
+@media (max-width: 600px) {
+
+    .register-background form {
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        left: 0;
+        right: 0;
+        top: 4.5rem;
+        margin: auto;
+        opacity: 0.8;
+    }
+}
+
 
 
 
