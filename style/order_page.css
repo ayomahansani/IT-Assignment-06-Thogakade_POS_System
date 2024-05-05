@@ -138,6 +138,365 @@ input:hover{
     border: 3px solid green;
 }
 
+/*------------------------------------------*/
+
+@media (max-width: 1064px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 8px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 45px;
+        height: 50px;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1031px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 6px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1022px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 6px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+
+    .navbar .buttons {
+        margin: 0.01em;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1002px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .offcanvas-title {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .btn-close {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .navbar .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 20px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 30px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 837px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .offcanvas-title {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .btn-close {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .navbar .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 15px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 720px) {
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 660px) {
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 9px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 619px) {
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 5px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 8px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 588px) {
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 12px;
+        padding: 3px 8px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 12px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: papayawhip;
+        /*padding: 6px 5px;*/
+        /*margin: 1px 1px;*/
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
 
 
 /* -----------Special On Order Form----------- */
