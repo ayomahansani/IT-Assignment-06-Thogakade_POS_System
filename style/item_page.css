@@ -1494,6 +1494,19 @@ input:hover{
         height: 110%;
     }
 
+    .modal-body {
+        font-size: 0.9rem;
+    }
+
+    .modal .modal-footer .btn {
+        border: none;
+        font-size: 0.9rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
 }
 
 /*------------------------------------------*/
@@ -1597,6 +1610,19 @@ input:hover{
         height: 110%;
     }
 
+    .modal-body {
+        font-size: 0.9rem;
+    }
+
+    .modal .modal-footer .btn {
+        border: none;
+        font-size: 0.9rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
 }
 
 /*------------------------------------------*/
@@ -1698,6 +1724,19 @@ input:hover{
     .home-image {
         width: 400%;
         height: 140%;
+    }
+
+    .modal-body {
+        font-size: 0.9rem;
+    }
+
+    .modal .modal-footer .btn {
+        border: none;
+        font-size: 0.9rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
 }
@@ -1839,6 +1878,19 @@ input:hover{
     input:hover{
         border: 3px solid green;
     }
+
+    .modal-body {
+        font-size: 0.9rem;
+    }
+
+    .modal .modal-footer .btn {
+        border: none;
+        font-size: 0.9rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
 }
 
 /*------------------------------------------*/
@@ -1978,6 +2030,38 @@ input:hover{
     input:hover{
         border: 3px solid green;
     }
+
+    .modal-body {
+        font-size: 0.9rem;
+    }
+
+    .modal .modal-footer .btn {
+        border: none;
+        font-size: 0.9rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 500px) {
+
+    .modal-body {
+        font-size: 0.9rem;
+    }
+
+    .modal .modal-footer .btn {
+        border: none;
+        font-size: 0.9rem;
+        width: 98px;
+        height: 40px;
+        margin: 8px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
 }
 
 
