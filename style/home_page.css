@@ -733,12 +733,12 @@
         background-color: gold;
         color: black;
         font-weight: 500;
-        font-size: 13px;
+        font-size: 11px;
         padding: 3px 8px;
         border-radius: 50px;
         text-decoration: none;
         transition: 0.3s background-color;
-        margin-right: 12px;
+        margin-right: 10px;
         box-shadow: 4px 4px 7px black;
     }
 
