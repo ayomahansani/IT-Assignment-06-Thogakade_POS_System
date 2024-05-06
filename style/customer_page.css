@@ -1628,7 +1628,7 @@ input:hover{
 
     .hero-section::before {
         width: 100vw;
-        height: 130vh;
+        height: 120vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -1640,7 +1640,7 @@ input:hover{
 
     .home-image {
         width: 400%;
-        height: 130%;
+        height: 120%;
     }
 
     .main-title {
@@ -1722,23 +1722,6 @@ input:hover{
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
-    }
-
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .home-image {
-        width: 400%;
-        height: 110%;
     }
 
     .modal-body {
@@ -1762,7 +1745,7 @@ input:hover{
 
     .hero-section::before {
         width: 100vw;
-        height: 140vh;
+        height: 120vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -1774,7 +1757,7 @@ input:hover{
 
     .home-image {
         width: 400%;
-        height: 140%;
+        height: 120%;
     }
 
     .main-title {
@@ -1858,23 +1841,6 @@ input:hover{
         opacity: 0.7;
     }
 
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .home-image {
-        width: 400%;
-        height: 110%;
-    }
-
     .modal-body {
         font-size: 0.8rem;
     }
@@ -1896,7 +1862,7 @@ input:hover{
 
     .hero-section::before {
         width: 100vw;
-        height: 140vh;
+        height: 120vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -1908,7 +1874,7 @@ input:hover{
 
     .home-image {
         width: 400%;
-        height: 140%;
+        height: 120%;
     }
 
     .main-title {
@@ -1990,23 +1956,6 @@ input:hover{
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
-    }
-
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .home-image {
-        width: 400%;
-        height: 110%;
     }
 
     .modal-body {
@@ -2570,7 +2519,7 @@ input:hover{
 
 /*------------------------------------------*/
 
-@media (max-width: 510px) {
+@media (max-width: 512px) {
 
     .hero-section::before {
         width: 100vw;
@@ -2707,14 +2656,6 @@ input:hover{
 
     input:hover{
         border: 3px solid green;
-    }
-
-    .modal .modal-footer .btn {
-        border: none;
-        width: 98px;
-        height: 40px;
-        margin: 8px;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
     .modal-body {
